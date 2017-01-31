@@ -6,5 +6,4 @@ RUN apk update --no-cache --purge
 RUN apk add wget curl make
 RUN curl -L https://cpanmin.us | perl - -M https://cpan.metacpan.org -n Mojolicious
 
-bad commit forgot the comment
-
+# fixed the comment that was missing a hash
